@@ -1,0 +1,106 @@
+*{
+font-family: sans-serif;
+color: lightslategrey;
+font-size: 18px;
+}
+
+#head{
+    width: 100%;
+    height: 40px;
+    background-color: lightsteelblue;
+    padding: 2px;
+}
+
+#head_image{
+    text-align: center;
+}
+
+#left_side{
+border: 2px solid gray;
+background-color: aliceblue;
+width:30%;
+position: relative;
+top: -22px;
+margin-left: 2%;
+margin-right: 2%;
+float:left;
+height:106%;
+box-shadow: 0 0 14px #000000; 
+}
+
+#right_side{
+/*border: 2px solid gray;*/
+width:60%;
+margin-left: 2%;
+margin-right: 2%;
+color: blue;
+float: right;
+height:100%;
+    background-image: url(img_resume/fon4.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50%
+}
+
+#right_side div{
+    /*padding-top: 1%;
+    padding-bottom: 1%;*/
+}
+
+#container{
+/*border: 6px solid green;*/
+height:680px;
+overflow:hiden;
+}
+
+.photo{
+border: 4px solid lightslategrey;
+border-radius: 115px;
+margin-top: 20%;
+}
+
+#about{
+margin-top: 10%;
+text-align: center;
+}
+
+p img {
+vertical-align: middle;
+}
+
+li{
+   list-style: none;
+    background: url(img_resume/li_marker.png) no-repeat 3px;
+    padding-left: 30px;
+   /* list-style-image: &#10004;*/
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    background-color: lightsteelblue;
+    /*text-align: center;*/
+    text-align: right;
+    padding: 2px;
+}
+
+#footer p{
+    /*display: inline-block;*/
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    padding: 2px;
+}
+
+#footer a{
+    color: blue;
+    font-size: 14px;
+    margin: 0;
+}
+
+#fone_image{
+    border: 1px solid red;
+    width: 100%;
+    height: %;
+    
+}
